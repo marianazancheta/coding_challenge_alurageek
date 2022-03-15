@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+header, #logoTopo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header {
+    justify-content: space-between;
+    padding: 32px 0px;
+    position: static;
+    width: 1136px;
+    height: 115px;
+    margin: 0 auto;
+}
+
+.logoControle {
+    margin-top: 10px;
+}
+
+#logoTopo h1, #campoBusca, #busca {
+    display: inline;
+}
+
+#campoBusca {
+    width: 393px;
+    height: 40px;
+}
+#busca {
+    padding: 8px 16px;
+    position: static;
+    width: 393px;
+    height: 40px;
+    background: #F5F5F5;
+    border-radius: 20px;
+    border: 0px
+}
+
+#campoBusca img {
+    position: relative;
+    left: 100%;
+    top: -89%;
+    z-index: 2;
+}
+
+#botaoLogin {
+    position: static;
+    left: 70px;
+    top: 16px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+    background-color: white;
+    border: solid 1px #2A7AE4;
+    padding: 16px 50px;
+    cursor: pointer;
+}
