@@ -3,15 +3,6 @@ main {
     margin: 0 auto;
 }
 
-.nomeCategorias {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    color: #464646;
-}
-
 .botaoBanner {
     display: inline;
     color: #FFFFFF;
@@ -27,4 +18,97 @@ main {
     top: -87px;
     left: 152px;
     cursor: pointer;
+}
+
+#Produtos {
+    width: 1136px;
+    margin: 0 auto;
+}
+
+.secaoProdutos {
+    height: 306px;
+    margin-bottom: 64px;
+}
+
+.headerCategoria {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.nomeCategorias {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+
+.verTudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    left: 80%;
+}
+
+.verTudo p {
+    margin: 0px 8px;
+}
+
+.verTudoTexto {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+}
+
+.galeriaProdutos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0px;
+    list-style: none;
+}
+
+.nomeProduto {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+    margin: 8px 0px;
+}
+
+.precoProdutos {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    margin: 8px 0px;
+}
+
+.verProduto {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+    margin: 8px 0px;
+}
+
+@media screen and (max-width: 770px) {
+    #Produtos {
+        width: 100%;
+        overflow: hidden;
+    }
 }

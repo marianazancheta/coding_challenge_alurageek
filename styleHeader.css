@@ -16,7 +16,7 @@ header {
 }
 
 .logoControle {
-    margin-top: 10px;
+    margin-top: 3px;
 }
 
 #logoTopo h1, #campoBusca, #busca {
@@ -58,4 +58,7 @@ header {
     border: solid 1px #2A7AE4;
     padding: 16px 50px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 770px) {
 }
