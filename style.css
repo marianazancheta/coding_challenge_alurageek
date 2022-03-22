@@ -1,6 +1,12 @@
+.content {
+    width: 1440px;
+    margin: 0 auto;
+}
+
 main {
     width: 1440px;
     margin: 0 auto;
+    padding-bottom: 64px;
 }
 
 .botaoBanner {
@@ -28,6 +34,8 @@ main {
 .secaoProdutos {
     height: 306px;
     margin-bottom: 64px;
+    width: 1136px;
+    margin: 0 auto;
 }
 
 .headerCategoria {

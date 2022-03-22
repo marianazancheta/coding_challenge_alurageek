@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek - Login</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styleHeader.css">
+    <link rel="stylesheet" href="styleFooter.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="content">
+        <header>
+            <div id="logoTopo">
+                <h1><img src="imagens/Logo.png" alt="Logo em forma de controle de console" class="logoControle"></h1>
+                <h1><img src="imagens/Alura.png" alt="Logo AluraGeek com a palavra Alura escrita"></h1>
+                <h1><img src="imagens/Geek.png" alt="Logo AluraGeek com a palavra Geek escrita"></h1>
+            </div>
+            <div id="campoBusca">
+                <input type="text" placeholder="O que deseja encontrar?" id="busca">
+                <img src="imagens/Lupa.png" alt="">
+            </div>
+            <div>
+                <input type="button" value="Login" id="botaoLogin">
+            </div>
+        </header>
+        
+        <main>
+            <form id="formLogin">
+                <h2 id="tituloLogin">Iniciar Sessão</h2>
+                <label class="sugestoesPlaceholder">Escreva seu e-mail</label>
+                <input type="email" class="campoLogin">
+                <label class="sugestoesPlaceholder">Escreva sua senha</label>
+                <input type="password" class="campoLogin">
+                <input type="button" value="Entrar" id="botaoEntrar">
+
+            </form>
+        </main>
+
+        <footer>
+            <section id="footerInfos">
+                <section id="footerInfosContent">
+                    <section id="logoFooter">
+                        <h2><img src="imagens/Logo.png" alt="Logo em forma de controle de console" class="logoControle"></h2>
+                        <h2><img src="imagens/Alura.png" alt="Logo AluraGeek com a palavra Alura escrita"></h2>
+                        <h2><img src="imagens/Geek.png" alt="Logo AluraGeek com a palavra Geek escrita"></h2>
+                    </section>
+                    <section id="footerLinks">
+                        <ul>
+                            <li class="footerLinksLink"><a href="">Quem somos nós</a></li>
+                            <li class="footerLinksLink"><a href="">Política de privacidade</a></li>
+                            <li class="footerLinksLink"><a href="">Programa fidelidade</a></li>
+                            <li class="footerLinksLink"><a href="">Nossas lojas</a></li>
+                            <li class="footerLinksLink"><a href="">Quero ser franqueado</a></li>
+                            <li class="footerLinksLink"><a href="">Anuncie aqui</a></li>
+                        </ul>
+                    </section>
+                    <section id="footerForm">
+                        <form action="">
+                            <h2>Fale conosco</h2>
+                            <label for="campoNome" class="sugestoesPlaceholder">Nome</label>
+                            <input type="text" id="campoNome">
+                            <label for="" class="sugestoesPlaceholder">Escreva sua mensagem</label>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                            <input type="button" value="Enviar mensagem" id="botaoMensagem">
+                        </form>
+                    </section>
+                </section>
+            </section>
+            <section id="dev">
+                <p>Desenvolvido por Mariana Zancheta</p>
+                <p>2022</p>
+            </section>
+            
+        </footer>
+    </div>
+</body>
+</html>

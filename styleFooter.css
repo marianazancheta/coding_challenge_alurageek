@@ -86,7 +86,7 @@ textarea {
     resize: none;
 }
 
-form label {
+.sugestoesPlaceholder {
     display: flex;
     height: 0px;
     font-family: 'Raleway';
