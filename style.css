@@ -81,7 +81,7 @@ main {
     align-items: center;
     justify-content: space-between;
     margin-left: 0px;
-    list-style: none;
+    list-style: none;  
 }
 
 .nomeProduto {
