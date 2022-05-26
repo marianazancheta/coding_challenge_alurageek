@@ -1,18 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-header, #logoTopo {
+header {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-header {
     justify-content: space-between;
     padding: 0px;
     position: static;
     width: 1136px;
     height: 115px;
     margin: 0 auto;
+}
+
+.headerEsquerda {
+    width: 601px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logoTopo {
+    display: flex;
+    align-items: center;
 }
 
 .logoControle {
@@ -26,11 +35,11 @@ header {
 #campoBusca {
     width: 393px;
     height: 40px;
+    margin: 0 32px;
 }
 #busca {
-    padding: 8px 16px;
-    position: static;
-    width: 393px;
+    padding-left: 16px;
+    width: 377px;
     height: 40px;
     background: #F5F5F5;
     border-radius: 20px;
@@ -39,8 +48,8 @@ header {
 
 #campoBusca img {
     position: relative;
-    left: 100%;
-    top: -89%;
+    left: 93%;
+    top: -77%;
     z-index: 2;
 }
 
@@ -51,8 +60,8 @@ header {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.2rem;
     color: #2A7AE4;
     background-color: white;
     border: solid 1px #2A7AE4;
@@ -61,4 +70,98 @@ header {
 }
 
 @media screen and (max-width: 770px) {
+    header {
+        width: 704px;
+        padding: 16px 32px;
+    }
+
+    .headerEsquerda {
+        width: 404px;
+    }
+
+    #logoTopo {
+        height: 16px;
+    }
+
+    #logoTopo h1, #logoTopo h1 img {
+        height: 10.36px;
+    }
+
+    #logoControle {
+        height: 16.33px;
+    }
+
+    #busca {
+       
+        width: 240px;
+    }
+
+    #campoBusca img {
+        left: 88%;
+        top: -76%;
+    }
+
+    #botaoLogin {
+        position: static;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 14px;
+        color: #2A7AE4;
+        padding: 16px 50px;
+    }
+ 
+  
+}
+  
+
+@media screen and (max-width: 362px) {
+  
+    header {
+        width: 328px;
+        padding: 16px;
+    }
+
+    .headerEsquerda {
+        width: 100px;
+    }
+
+    #botaoLogin {
+        position: static;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 14px;
+        color: #2A7AE4;
+        padding: 12px 16px;
+        width: 133px;
+        height: 40px;
+    }
+    #logoTopo {
+        height: 16px;
+    }
+
+    #logoTopo h1, #logoTopo h1 img {
+        height: 10.36px;
+    }
+
+    #logoControle {
+        height: 16.33px;
+    }
+
+    #campoBusca {
+        margin: 0px;
+    }
+    
+    
+    #busca{
+        display: none;
+        width: 0px;
+    }
+
+    #campoBusca img {
+        left: 202.5%;
+        top: 33%;
+        fill: #464646;
+    }
+             
+    
 }

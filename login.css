@@ -1,7 +1,11 @@
+.content {
+    width: 1440px;
+}
+
 main {
     background: #E5E5E5;
     padding: 91px 0;
-    width: 1440px;
+    width: 100%;
 }
 
 #formLogin {

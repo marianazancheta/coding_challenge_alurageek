@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AluraGeek - Login</title>
+    <title>AluraGeek</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styleHeader.css">
     <link rel="stylesheet" href="styleFooter.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="cadastrarProduto.css">
 </head>
 
 <body>
@@ -30,17 +30,29 @@
                 <input type="button" value="Login" id="botaoLogin">
             </div>
         </header>
-        
+            
         <main>
-            <form id="formLogin">
-                <h2 id="tituloLogin">Iniciar Sessão</h2>
-                <label class="sugestoesPlaceholder">Escreva seu e-mail</label>
-                <input type="email" class="campoLogin">
-                <label class="sugestoesPlaceholder">Escreva sua senha</label>
-                <input type="password" class="campoLogin">
-                <input type="button" value="Entrar" id="botaoEntrar">
-
-            </form>
+            <section class="formNovoProduto">
+                <h1 class="tituloNovo">Adicionar novo produto</h1>
+                <div class="importarImagem">
+                    <img src="imagens/insertPhoto.png" alt="">
+                    <p id="ou">ou</p>
+                    <input type="button" value="Procure no seu computador">
+                </div>
+                <div class="descricaoNovoProduto">
+                    <label class="placeholderNovo" for="">Nome do produto</label>
+                    <p class="preenchimentoNovoProduto">Produto XYZ</p>
+                    <input type="text" class="inputNovoProduto">
+                    <label class="placeholderNovo" for="">Preço do produto</label>
+                    <p class="preenchimentoNovoProduto">R$ 60,00</p>
+                    <input type="text" class="inputNovoProduto">
+                    <label for="" class="placeholderNovo">Descrição do produto</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <input type="button" value="Adicionar produto" id="botaoNovoProduto">
+                </div>
+                
+                
+            </section>
         </main>
 
         <footer>

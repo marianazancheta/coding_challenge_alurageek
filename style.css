@@ -4,7 +4,7 @@
 }
 
 main {
-    width: 1440px;
+    width: 100%;
     margin: 0 auto;
     padding-bottom: 64px;
 }
@@ -36,6 +36,7 @@ main {
     margin-bottom: 64px;
     width: 1136px;
     margin: 0 auto;
+    margin-bottom: 2rem;
 }
 
 .headerCategoria {
@@ -115,8 +116,13 @@ main {
 }
 
 @media screen and (max-width: 770px) {
-    #Produtos {
-        width: 100%;
-        overflow: hidden;
+    .content {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 362px) {
+    .content {
+        width: 360px;
     }
 }
